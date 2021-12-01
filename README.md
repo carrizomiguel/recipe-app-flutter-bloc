@@ -19,4 +19,4 @@ flutter run
 
 ## Links
 ### Freepik images source
-* [Website](https://www.freepik.es/stories)
+* [@stories](https://www.freepik.es/stories)
