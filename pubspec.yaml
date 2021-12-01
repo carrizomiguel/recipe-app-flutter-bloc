@@ -1,0 +1,70 @@
+name: recipe_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Network
+  connectivity_plus: ^2.0.3
+  # Functional Programming
+  dartz: ^0.10.0
+  # Value Equality
+  equatable: ^2.0.3
+  # State Management
+  flutter_bloc: ^7.3.0
+  # Storage
+  get_storage: ^2.0.3
+  # Animations
+  animate_do: ^2.0.0
+  shimmer: ^2.0.0
+  # Icons
+  iconsax: ^0.0.8
+  # HTTP
+  http: ^0.13.4
+  # HTML render
+  flutter_html: ^2.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Black.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Bold.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-ExtraBold.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-ExtraLight.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Light.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Medium.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-SemiBold.ttf
+        - asset: assets/fonts/roboto_slab/RobotoSlab-Thin.ttf
+    - family: Cabin
+      fonts:
+        - asset: assets/fonts/cabin/Cabin-Bold.ttf
+        - asset: assets/fonts/cabin/Cabin-BoldItalic.ttf
+        - asset: assets/fonts/cabin/Cabin-Italic.ttf
+        - asset: assets/fonts/cabin/Cabin-Medium.ttf
+        - asset: assets/fonts/cabin/Cabin-MediumItalic.ttf
+        - asset: assets/fonts/cabin/Cabin-Regular.ttf
+        - asset: assets/fonts/cabin/Cabin-SemiBold.ttf
+        - asset: assets/fonts/cabin/Cabin-SemiBoldItalic.ttf
