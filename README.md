@@ -19,6 +19,6 @@ flutter run
 
 ## Links
 ### Freepik images source
-* [Freepik](https://www.freepik.es/stories)
+* [@stories](https://www.freepik.es/stories)
 ### Api
 * [Spoonacular](https://spoonacular.com/)
