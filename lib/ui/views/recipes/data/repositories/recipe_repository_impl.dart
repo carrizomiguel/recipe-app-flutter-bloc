@@ -29,7 +29,12 @@ class RecipeRepositoryImpl extends RecipeRepository {
         return Left(ServerFailure());
       }
     } else {
-      throw ConnectionException();
+      try {
+        final localRecipe = await localDataSource.getRecipeModel();
+        return Right(localRecipe);
+      } on CacheException {
+        return Left(CacheFailure());
+      }
     }
   }
 }
